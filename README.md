@@ -21,7 +21,9 @@ Include the library after you've included leafletjs.
 
 ### Options
 `width` - the base width of the pinnacle (in pixels)
+
 `height` - the height of the pinnacle (in pixels)
+
 All other options related to styling, such as `color` and `weight` can be inherited from [`L.Path`](https://leafletjs.com/reference.html#path)
 ````
     L.pinnacleMarker([0,0], {
@@ -43,6 +45,7 @@ All other options related to styling, such as `color` and `weight` can be inheri
 
 ### Methods
 `setWidth` - sets the width of the base of the pinnacle
+
 `setHeight` - sets the height of the pinnacle
 
 For example
