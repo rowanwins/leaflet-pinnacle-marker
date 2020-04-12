@@ -1,0 +1,27 @@
+{
+  "name": "leaflet-pinnacleMarker",
+  "version": "0.0.1",
+  "description": "A small module for incorporating a pinnacle marker in leafletjs",
+  "main": "dist/leaflet-pinnacleMarker.min.js",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-mourner": "^3.0.0",
+    "rollup": "^1.27.13",
+    "rollup-plugin-terser": "^5.1.3"
+  },
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w",
+    "prepare": "npm run build"
+  },
+  "author": "Rowan Winsemius",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rowanwins/leaflet-pinnacleMarker"
+  },
+  "keywords": [
+    "leaflet"
+  ]
+}
