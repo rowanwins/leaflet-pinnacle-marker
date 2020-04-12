@@ -11,6 +11,6 @@ const output = (outputName, plugins) => ({
 })
 
 export default [
-    output('./dist/leaflet-pinnacleMarker.js'),
-    output('./dist/leaflet-pinnacleMarker.min.js', [terser()])
+    output('./dist/leaflet-pinnacle-marker.js'),
+    output('./dist/leaflet-pinnacle-marker.min.js', [terser()])
 ]

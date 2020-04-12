@@ -1,8 +1,8 @@
 {
-  "name": "leaflet-pinnacleMarker",
+  "name": "leaflet-pinnacle-marker",
   "version": "0.0.1",
   "description": "A small module for incorporating a pinnacle marker in leafletjs",
-  "main": "dist/leaflet-pinnacleMarker.min.js",
+  "main": "dist/leaflet-pinnacle-marker.min.js",
   "dependencies": {},
   "devDependencies": {
     "eslint": "^6.8.0",

@@ -1,7 +1,7 @@
-# leaflet-pinnacleMarker
+# leaflet-pinnacle-marker
 Extends [`L.Path`](https://leafletjs.com/reference.html#path) to create a pinnacle style marker. 
 
-[Check out the demo](https://rowanwins.github.io/leaflet-pinnacleMarker/docs/index.html)
+[Check out the demo](https://rowanwins.github.io/leaflet-pinnacle-marker/docs/index.html)
 
 ### Installing
 ````
@@ -12,11 +12,11 @@ npm install leaflet-pinnacleMarker
 Include the library after you've included leafletjs.
 
 ```
-    require('leaflet-pinnacleMarker')
+    require('leaflet-pinnacle-marker')
     // or
-    <script src="leaflet-pinnacleMarker/dist/leaflet-pinnacleMarker.min.js"></script>
+    <script src="leaflet-pinnacle-marker/dist/leaflet-pinnacle-marker.min.js"></script>
     // or via CDN
-    <script src="https://unpkg.com/leaflet-pinnacleMarker"></script>
+    <script src="https://unpkg.com/leaflet-pinnacle-marker"></script>
 ```
 
 ### Options
