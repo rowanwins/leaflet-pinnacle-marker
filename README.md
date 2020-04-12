@@ -1,7 +1,7 @@
 # leaflet-pinnacleMarker
 Extends [`L.Path`](https://leafletjs.com/reference.html#path) to create a pinnacle style marker. 
 
-[Check out the demo](https://rowanwins.github.io/leaflet-pinnacleMarker/index.html)
+[Check out the demo](https://rowanwins.github.io/leaflet-pinnacleMarker/docs/index.html)
 
 ### Installing
 ````
