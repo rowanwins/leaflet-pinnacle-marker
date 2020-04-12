@@ -26,11 +26,18 @@ L.PinnacleMarker = L.Path.extend({
     },
 
     setStyle: function (options) {
-        var height = options && options.height || this._height;
+        const height = options && options.height || this._height;
+        const width = options && options.width || this._width;
         Path.prototype.setStyle.call(this, options);
         this.setHeight(height);
-        this._renderer._updatePinnacle(this)
+        this.setWidth(width);
+        this._updatePath(this)
         return this;
+    },
+
+    setWidth (newWidth) {
+        this.options.width = newWidth
+        this._updatePath()
     },
 
     setHeight (newHeight) {

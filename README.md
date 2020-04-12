@@ -9,7 +9,7 @@ npm install leaflet-pinnacleMarker
 ````
 
 ### Usage
-**Step 1.** Include the library after you've included leafletjs.
+Include the library after you've included leafletjs.
 
 ```
     require('leaflet-pinnacleMarker')
@@ -19,13 +19,15 @@ npm install leaflet-pinnacleMarker
     <script src="https://unpkg.com/leaflet-pinnacleMarker"></script>
 ```
 
-**Step 2.** 
-
+### Options
+`width` - the base width of the pinnacle (in pixels)
+`height` - the height of the pinnacle (in pixels)
+All other options related to styling, such as `color` and `weight` can be inherited from [`L.Path`](https://leafletjs.com/reference.html#path)
 ````
     L.pinnacleMarker([0,0], {
-        color: '#6e7479',
         width: 8,
-        height: 20
+        height: 20,
+        color: '#6e7479'
     }).addTo(map);
 
     // or with geojson
@@ -40,5 +42,11 @@ npm install leaflet-pinnacleMarker
 ````
 
 ### Methods
+`setWidth` - sets the width of the base of the pinnacle
+`setHeight` - sets the height of the pinnacle
 
-
+For example
+````
+    const pm = L.pinnacleMarker([0,0]).addTo(map);
+    pm.setHeight(40)
+````

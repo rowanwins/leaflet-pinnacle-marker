@@ -20,7 +20,8 @@
 
 
 <div id="mapid" style="width: 600px; height: 400px;"></div>
-
+<button onclick="setHeight()">Set random height</button>
+<button onclick="setWidth()">Set random width</button>
 <script>
 
     var map = L.map('mapid').setView([0, 0], 1);
@@ -32,11 +33,19 @@
     }).addTo(map);
 
 
-    L.pinnacleMarker([0,0], {
+    const lp = L.pinnacleMarker([0,0], {
         color: '#6e7479',
         width: 8,
         height: 20
     }).addTo(map);
+
+    function setHeight() {
+        lp.setHeight(Math.floor((Math.random() * 100) + 1));
+    }
+
+    function setWidth() {
+        lp.setWidth(Math.floor((Math.random() * 50) + 1));
+    }
 
 </script>
 </body>
